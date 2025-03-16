@@ -9,6 +9,8 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World, we are ready, Thank God!");
+            Console.WriteLine("I am learning c# praise God");
+            Console.WriteLine(3 + 5);
         }
     }
 }
