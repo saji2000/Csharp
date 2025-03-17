@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-using System;
+﻿using System;
 
 namespace ConsoleApp1
 {
@@ -8,17 +6,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World, we are ready, Thank God!");
-            Console.WriteLine("I am learning c# praise God");
-            Console.WriteLine(3 + 5);
+            Console.Write("Enter Username: ");
+            string username = Console.ReadLine();
+            Console.WriteLine("Your username is: " + username);
 
-            string name = "Sajad";
-            Console.WriteLine("my name is: " + name);
-
-            int myInt = 10;
-            double myDouble = myInt;
-            
-            Console.WriteLine(Convert.ToString(myDouble));
         }
     }
 }
