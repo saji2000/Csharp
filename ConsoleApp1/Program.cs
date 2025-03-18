@@ -6,10 +6,20 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.Write("Enter Username: ");
-            string username = Console.ReadLine();
-            Console.WriteLine("Your username is: " + username);
+            Console.Write("Guess a number between 1 and 1000: ");
+            int num = Convert.ToInt16(Console.ReadLine());
+            
+            Random random = new Random();
+            int randomNum = random.Next(1, 1000);
 
+            if (randomNum == num)
+            {
+                Console.WriteLine("You guessed the number!");
+            }
+            else
+            {
+                Console.WriteLine("You guessed the wrong number try again!");
+            }
         }
     }
 }
