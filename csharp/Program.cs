@@ -8,11 +8,10 @@ namespace csharp
         {
             Console.Write("How many starts to you want to write: ");
             int num = Convert.ToInt16(Console.ReadLine());
-            int i = 0;
-            while (i < num)
+            
+            for (int i = 0; i < num; i++)
             {
                 Console.Write("*");
-                i++;
             }
         }
     }
