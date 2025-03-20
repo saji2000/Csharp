@@ -6,10 +6,12 @@ namespace csharp
     {
         static void Main(string[] args)
         {
-            int[] nums = [1, 5, 4, 2, 9];
+            int[,] nums = {{1, 2, 3}, {4, 5, 6}};
 
-            Array.Sort(nums);
-            Console.WriteLine(string.Join(", ", nums));
+            foreach (int num in nums)
+            {
+                Console.WriteLine(num.ToString());
+            }
         }
     }
 }
