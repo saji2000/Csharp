@@ -6,16 +6,10 @@ namespace csharp
     {
         static void Main(string[] args)
         {
-            int num = 10;
+            int[] nums = [1, 5, 4, 2, 9];
 
-            for (int i = 0; i < 10; i++)
-            {
-                if (i == 5)
-                {
-                    continue;
-                }
-                Console.WriteLine(i);
-            }
+            Array.Sort(nums);
+            Console.WriteLine(string.Join(", ", nums));
         }
     }
 }
