@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/seyedsajjaddaneshmand/development/ConsoleApp1/csharp/csharp.csproj",
+      "projectUniqueName": "/Users/seyedsajjaddaneshmand/development/csharp/csharp/csharp.csproj",
       "projectName": "csharp",
-      "projectPath": "/Users/seyedsajjaddaneshmand/development/ConsoleApp1/csharp/csharp.csproj",
+      "projectPath": "/Users/seyedsajjaddaneshmand/development/csharp/csharp/csharp.csproj",
       "packagesPath": "/Users/seyedsajjaddaneshmand/.nuget/packages/",
-      "outputPath": "/Users/seyedsajjaddaneshmand/development/ConsoleApp1/csharp/obj/",
+      "outputPath": "/Users/seyedsajjaddaneshmand/development/csharp/csharp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/seyedsajjaddaneshmand/.nuget/NuGet/NuGet.Config"
