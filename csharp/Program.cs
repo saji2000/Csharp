@@ -6,15 +6,15 @@ namespace csharp
     {
         static void Main(string[] args)
         {
-            Console.Write("Write down a list of shopping items you want to buy seperated with comma \",\": ");
-            string input = Console.ReadLine();
-            
-            string[] items = input.Split(',');
-            
-            
-            foreach (string item in items)
+            int num = 10;
+
+            for (int i = 0; i < 10; i++)
             {
-                Console.WriteLine(item);
+                if (i == 5)
+                {
+                    continue;
+                }
+                Console.WriteLine(i);
             }
         }
     }
