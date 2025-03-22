@@ -2,16 +2,18 @@
 
 namespace csharp
 {
-    class Program
-    {
+    class Program{
+    
+        static void PrintName(string name)
+        {
+            Console.WriteLine($"Hello, {name}!");
+        }
+
         static void Main(string[] args)
         {
-            int[,] nums = {{1, 2, 3}, {4, 5, 6}};
-
-            foreach (int num in nums)
-            {
-                Console.WriteLine(num.ToString());
-            }
+            Console.WriteLine("Hello World! What is your name?");
+            string name = Console.ReadLine();
+            PrintName(name);
         }
     }
 }
