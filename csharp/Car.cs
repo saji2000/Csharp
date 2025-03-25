@@ -4,13 +4,21 @@ namespace csharp
 {
     public class Car
     {
-        private string color = "Blue";
-        private int maxSpeed = 100;
+        public string brand;
+        public string model;
+        public int year;
+
+        public Car(string carBrand = "Toyta", string carModel = "Corolla", int carYear = 2025)
+        {
+            brand = carBrand;
+            model = carModel;
+            year = carYear;
+        }
     
-        public static void DisplayCar()
+        public void DisplayCar()
         {
             Car car = new Car();
-            Console.WriteLine($"The car's color is: {car.color} and the max speed is : {car.maxSpeed} km/hr");
+            Console.WriteLine($"The car's brand is: {car.brand} and the model is : {car.model} {car.year}");
         }
     }
 }
