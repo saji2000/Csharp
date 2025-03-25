@@ -17,8 +17,7 @@ namespace csharp
     
         public void DisplayCar()
         {
-            Car car = new Car();
-            Console.WriteLine($"The car's brand is: {car.brand} and the model is : {car.model} {car.year}");
+            Console.WriteLine($"The car's brand is: {brand} and the model is : {model} {year}");
         }
     }
 }
