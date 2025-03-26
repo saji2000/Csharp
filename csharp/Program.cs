@@ -10,10 +10,10 @@ namespace csharp
             
             Car car2 = new Car(carBrand: "Tesla", carModel: "S3", carYear: 2016);
             car2.DisplayCar();
-            
-            Console.WriteLine(car2.brand);
 
-            car2.CarPrice();
+            car2.Brand = "BYD";
+            
+            Console.WriteLine(car2.Brand);
         }
     }
 }
