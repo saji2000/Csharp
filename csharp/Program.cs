@@ -14,6 +14,8 @@ namespace csharp
             car2.Brand = "BYD";
             
             Console.WriteLine(car2.Brand);
+            
+            Console.WriteLine(car.Type);
         }
     }
 }

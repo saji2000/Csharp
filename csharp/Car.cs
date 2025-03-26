@@ -2,7 +2,7 @@ using System;
 
 namespace csharp
 {
-    public class Car
+    public class Car : Vehicle
     {
         private string brand;
         private string model;
@@ -17,37 +17,20 @@ namespace csharp
 
         public string Brand
         {
-            get {
-                return brand;
-            }
-            set
-            {
-                brand = value;
-            }
+            get { return brand; }
+            set { brand = value; }
         }
 
         public string Model
         {
-            get
-            {
-                return model;
-            }
-            set
-            {
-                model = value;
-            }
+            get { return model; }
+            set { model = value; }
         }
         
         public int Year
         {
-            get
-            {
-                return year;
-            }
-            set
-            {
-                year = value;
-            }
+            get { return year; }
+            set { year = value; }
         }
         public void DisplayCar()
         {
