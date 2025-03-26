@@ -15,7 +15,7 @@ public class Vehicle
         Console.WriteLine(type);
     }
 
-    public void MakeSound()
+    public virtual void MakeSound()
     {
         Console.WriteLine("Vehicle Sound");
     }

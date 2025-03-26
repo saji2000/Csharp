@@ -43,7 +43,7 @@ namespace csharp
             Console.WriteLine("50,000");
         }
 
-        public void MakeSound()
+        public override void MakeSound()
         {
             Console.WriteLine("Honk Honk!");
         }
