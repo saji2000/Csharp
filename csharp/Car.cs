@@ -7,12 +7,13 @@ namespace csharp
         private string brand;
         private string model;
         private int year;
-
+        
         public Car(string carBrand = "Toyta", string carModel = "Corolla", int carYear = 2025)
         {
             brand = carBrand;
             model = carModel;
             year = carYear;
+            Type = "Land";
         }
 
         public string Brand
@@ -40,6 +41,11 @@ namespace csharp
         private void CarPrice()
         {
             Console.WriteLine("50,000");
+        }
+
+        public void MakeSound()
+        {
+            Console.WriteLine("Honk Honk!");
         }
     }
 }

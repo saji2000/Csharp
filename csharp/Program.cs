@@ -5,8 +5,7 @@ namespace csharp
     class Program{
         static void Main(string[] args)
         {
-            Car car = new Car();
-            car.DisplayCar();
+            Vehicle car = new Car();
             
             Car car2 = new Car(carBrand: "Tesla", carModel: "S3", carYear: 2016);
             car2.DisplayCar();
@@ -16,6 +15,9 @@ namespace csharp
             Console.WriteLine(car2.Brand);
             
             Console.WriteLine(car.Type);
+            
+            car2.MakeSound();
+            car.MakeSound();
         }
     }
 }

@@ -2,7 +2,7 @@ namespace csharp;
 
 public class Vehicle
 {
-    private string type = "Land";
+    private string type;
 
     public string Type
     {
@@ -13,5 +13,10 @@ public class Vehicle
     public void DisplayType()
     {
         Console.WriteLine(type);
+    }
+
+    public void MakeSound()
+    {
+        Console.WriteLine("Vehicle Sound");
     }
 }
