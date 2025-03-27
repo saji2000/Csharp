@@ -1,6 +1,6 @@
 namespace csharp;
 
-public class Vehicle
+abstract class Vehicle
 {
     private string type;
 

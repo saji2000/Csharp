@@ -13,6 +13,7 @@ namespace csharp
             car2.Brand = "BYD";
             
             Console.WriteLine(car2.Brand);
+            car2.DisplayType();
             
             Console.WriteLine(car.Type);
             

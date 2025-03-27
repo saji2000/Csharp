@@ -2,7 +2,7 @@ using System;
 
 namespace csharp
 {
-    public class Car : Vehicle
+    class Car : Vehicle
     {
         private string brand;
         private string model;
