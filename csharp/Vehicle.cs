@@ -15,8 +15,5 @@ abstract class Vehicle
         Console.WriteLine(type);
     }
 
-    public virtual void MakeSound()
-    {
-        Console.WriteLine("Vehicle Sound");
-    }
+    public abstract void MakeSound();
 }

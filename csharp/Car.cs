@@ -2,7 +2,7 @@ using System;
 
 namespace csharp
 {
-    class Car : Vehicle
+    class Car : Object
     {
         private string brand;
         private string model;
@@ -13,7 +13,7 @@ namespace csharp
             brand = carBrand;
             model = carModel;
             year = carYear;
-            Type = "Land";
+            // Type = "Land";
         }
 
         public string Brand
@@ -43,7 +43,7 @@ namespace csharp
             Console.WriteLine("50,000");
         }
 
-        public override void MakeSound()
+        public void MakeSound()
         {
             Console.WriteLine("Honk Honk!");
         }
